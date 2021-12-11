@@ -41,6 +41,7 @@ Best Case: O(n) => 2 ilk değerimiz en mükemmel durumdur bizim için.
 Dizi sıralandıktan sonra 18 değeri bizim için Average Case durumuna düşer.
 
 **e)**
+
 0= [7,3,5,8,2,9,4,15,6] 
 
 1= [2,3,5,8,7,9,4,15,6]
