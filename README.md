@@ -51,3 +51,33 @@ Dizi sıralandıktan sonra 18 değeri bizim için Average Case durumuna düşer.
 3= [2,3,4,5,7,9,8,15,6]
 
 4= [2,3,4,5,6,9,8,15,7]
+
+
+### Proje2
+[16,21,11,8,12,22] -> Merge Sort
+
+**a)** Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+
+**b)** Big-O gösterimini yazınız.
+
+---
+
+**a)**
+
+1 : [16,21,11,8,12,22] diziyi ikiye böleriz.
+
+2 : [16,21,11] - [8,12,22] diziyi ikiye böleriz.
+
+3 : [16,21] - [11] - [8,12] - [22] diziyi ikiye böleriz.
+
+4 : [16] - [21] - [11] - [8] - [12] - [22] her biri teke düştükten sonra sıralamalı bir şekilde birleştirme işlemine başlarız.
+
+5 : [16,21] - [8,11] - [12,22] blokları sıralama yaparak birleştirmeye devam.
+
+6 : [8,11,16,21] - [12,22]
+
+7 : [8,11,12,16,21,22] 
+
+**b)**
+
+O(nlogn)
